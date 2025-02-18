@@ -19,7 +19,7 @@
 1. **安装**（需要Python 3.6+）
 
    ```
-   git clone https://github.com/YourName/AutoFish.git
+   git clone https://github.com/kkkano/AutoFish.git
    cd AutoFish
    # 依赖只有pyautogui和datetime！
    pip install pyautogui
