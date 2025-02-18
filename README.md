@@ -1,4 +1,4 @@
-# AutoFish 🐟 —— 智能摸鱼助手（老板看不见版）
+![image](https://github.com/user-attachments/assets/a3391b78-5404-43f7-b7d9-70cb68378105)# AutoFish 🐟 —— 智能摸鱼助手（老板看不见版）
 ![image](https://github.com/user-attachments/assets/4d4a85a8-476a-46bf-84ed-e1f358de9be5)
 
 **仓库描述**:
@@ -33,7 +33,8 @@
    ```
 
    > 示例：
-   ![Uploading image.png…]()
+   ![5Z83 0D@82U5D6QHSXPTPRN](https://github.com/user-attachments/assets/87bdb1bf-97d6-4a16-8a63-900633e79584)
+
 
 
 
