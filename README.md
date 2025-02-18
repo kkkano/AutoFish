@@ -32,7 +32,9 @@
    python auto_fish.py
    ```
 
-   > 示例：![@L_{5KEF8T3)~O1J)KIPKK3](https://github.com/user-attachments/assets/bdfb189f-bad0-41ea-bfc6-a8a1cceff31b)
+   > 示例：
+   ![Uploading image.png…]()
+
 
 
 ## 🛠️ 后续改进（简单版）
