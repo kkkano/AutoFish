@@ -47,13 +47,7 @@ python build_exe_minimal.py
 
 ## ⚙️ 功能展示
 
-### 🎞️ 交互演示
 
-<p align="center">
-  <img src="MDimages/ui_mockup.png" alt="AutoFish Dashboard" width="800">
-  <br/>
-  <em>隐蔽模式、薪资计算、鼠标移动等模块在同一窗口中协调工作</em>
-</p>
 
 ### 🎨 主题预览
 
