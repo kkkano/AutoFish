@@ -1,0 +1,119 @@
+{
+  "title_presets": [
+    "智能办公助手 [F9/Ctrl+Alt+H 隐藏]",
+    "Visual Studio Code - Output",
+    "cmd.exe",
+    "System Log Viewer",
+    "Windows PowerShell",
+    "Task Manager",
+    "系统日志查看器",
+    "Performance Monitor"
+  ],
+  "theme_presets": {
+    "默认": {
+      "bg": "#F0F0F0",
+      "fg": "#000000",
+      "entry_bg": "#FFFFFF",
+      "accent": "#0078D4",
+      "keyword": "#0000FF",
+      "string": "#A31515",
+      "comment": "#008000",
+      "style": "normal"
+    },
+    "VS Code Dark": {
+      "bg": "#1E1E1E",
+      "fg": "#9CDCFE",
+      "entry_bg": "#252526",
+      "accent": "#569CD6",
+      "keyword": "#569CD6",
+      "string": "#CE9178",
+      "comment": "#6A9955",
+      "style": "code"
+    },
+    "PyCharm Dark": {
+      "bg": "#2B2B2B",
+      "fg": "#A9B7C6",
+      "entry_bg": "#313335",
+      "accent": "#CC7832",
+      "keyword": "#CC7832",
+      "string": "#6A8759",
+      "comment": "#808080",
+      "style": "code"
+    },
+    "Monokai": {
+      "bg": "#272822",
+      "fg": "#F8F8F2",
+      "entry_bg": "#3E3D32",
+      "accent": "#F92672",
+      "keyword": "#F92672",
+      "string": "#E6DB74",
+      "comment": "#75715E",
+      "style": "code"
+    },
+    "Dracula": {
+      "bg": "#282A36",
+      "fg": "#F8F8F2",
+      "entry_bg": "#44475A",
+      "accent": "#FF79C6",
+      "keyword": "#FF79C6",
+      "string": "#F1FA8C",
+      "comment": "#6272A4",
+      "style": "code"
+    },
+    "GitHub Dark": {
+      "bg": "#0D1117",
+      "fg": "#C9D1D9",
+      "entry_bg": "#161B22",
+      "accent": "#58A6FF",
+      "keyword": "#FF7B72",
+      "string": "#A5D6FF",
+      "comment": "#8B949E",
+      "style": "code"
+    },
+    "One Dark": {
+      "bg": "#282C34",
+      "fg": "#ABB2BF",
+      "entry_bg": "#21252B",
+      "accent": "#61AFEF",
+      "keyword": "#C678DD",
+      "string": "#98C379",
+      "comment": "#5C6370",
+      "style": "code"
+    }
+  },
+  "font_presets": {
+    "VS Code 默认": "Consolas, 'Courier New', monospace",
+    "JetBrains Mono": "'JetBrains Mono', Consolas, monospace",
+    "Fira Code": "'Fira Code', Consolas, monospace",
+    "Source Code Pro": "'Source Code Pro', Consolas, monospace",
+    "Cascadia Code": "'Cascadia Code', Consolas, monospace",
+    "Monaco": "Monaco, Menlo, Consolas, monospace",
+    "Ubuntu Mono": "'Ubuntu Mono', Consolas, monospace"
+  },
+  "websites": [
+    [
+      "Zhihu",
+      "https://www.zhihu.com"
+    ],
+    [
+      "Bilibili",
+      "https://www.bilibili.com"
+    ],
+    [
+      "Weibo",
+      "https://weibo.com"
+    ],
+    [
+      "V2EX",
+      "https://www.v2ex.com"
+    ],
+    [
+      "GitHub",
+      "https://github.com"
+    ],
+    [
+      "ReadHub",
+      "https://readhub.cn"
+    ]
+  ]
+}

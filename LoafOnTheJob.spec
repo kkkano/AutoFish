@@ -5,7 +5,7 @@ a = Analysis(
     ['loaf-on-the-job.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('fish.ico', '.'), ('autofish/config.json', 'autofish')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

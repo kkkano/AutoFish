@@ -1,0 +1,37 @@
+name: Build Release (Windows)
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build exe
+        run: pyinstaller --noconfirm --clean LoafOnTheJob.spec
+
+      - name: Package artifact
+        shell: pwsh
+        run: Compress-Archive -Path dist/LoafOnTheJob/* -DestinationPath AutoFish-${{ github.ref_name }}-win64.zip
+
+      - name: Release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: AutoFish-${{ github.ref_name }}-win64.zip

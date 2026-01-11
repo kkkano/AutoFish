@@ -1,7 +1,7 @@
-﻿import sys
+import sys
 
-from autofish import browser_kernel
-from autofish.app import main as app_main
+from . import browser_kernel
+from .app import main as app_main
 
 
 def main():

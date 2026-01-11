@@ -1,0 +1,28 @@
+# Build outputs
+dist/
+build/
+*.spec
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Virtual environments
+venv/
+env/
+pyinstaller_env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Temp files
+*.log
+nul
+
+# Workflow files
+.spec-workflow/
+.antigravity/
