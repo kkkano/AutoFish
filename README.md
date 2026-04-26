@@ -37,8 +37,8 @@ python loaf-on-the-job.py
 
 ## 🧰 轻量化打包
 
-项目附带 `build_exe_minimal.py`，通过 PyInstaller + `LoafOnTheJob.spec` 生成一个 `dist/LoafOnTheJob.exe` 的最小体积副本。
-默认启用了 `onefile=True`、UPX（如已安装）、`strip=True` 和 `optimize=2`，运行前可以加装 [UPX 压缩工具](https://upx.github.io/)，再执行：
+项目附带 `build_exe_minimal.py`，通过 PyInstaller + `LoafOnTheJob.spec` 生成单文件版本：`dist/LoafOnTheJob.exe`。
+当前 spec 使用单文件 EXE、UPX（如已安装）、`strip=True` 和 `optimize=2`。运行前可以加装 [UPX 压缩工具](https://upx.github.io/)，再执行：
 
 ```bash
 python build_exe_minimal.py
@@ -84,10 +84,15 @@ python build_exe_minimal.py
 内置 2026 标准五险一金计算器，精确计算税后收入，让每一次摸鱼都心中有数。
 
 ## 🛠️ 配置说明
-首次运行后生成的 `config.json` 可配置以下项：
-- `work_days`: 每月工作天数
-- `monthly_salary`: 税前月薪
+项目启动时会读取内置的 `autofish/config.json`，当前版本不会在首次运行时自动生成或保存配置文件。
+
+源码运行或重新打包前，可以手动编辑 `autofish/config.json`：
 - `title_presets`: 自定义伪装标题列表
+- `theme_presets`: 自定义界面主题
+- `font_presets`: 自定义代码字体选项
+- `websites`: 自定义快捷网站入口
+
+薪资、工作日、上下班时间和五险一金参数目前只在运行时通过界面输入，不会写回配置文件。
 
 ## 📦 项目结构
 
